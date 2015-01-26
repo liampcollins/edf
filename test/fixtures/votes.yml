@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  title: MyText
+  finance: 1.5
+  skills: 1.5
+  env: 1.5
+  culture: 1.5
+  inf: 1.5
+  diginf: 1.5
+  agglom: 1.5
+  market: 1.5
+  lifestyle: 1.5
+
+two:
+  name: MyString
+  title: MyText
+  finance: 1.5
+  skills: 1.5
+  env: 1.5
+  culture: 1.5
+  inf: 1.5
+  diginf: 1.5
+  agglom: 1.5
+  market: 1.5
+  lifestyle: 1.5

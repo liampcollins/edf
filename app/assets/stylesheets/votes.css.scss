@@ -1,0 +1,66 @@
+// Place all the styles related to the votes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+		
+	
+.sliders{
+	.category-container{
+		width: 90vw;
+		.label{
+			display: inline-block;
+			width: 200px;
+			font-size: 15px;
+			height: 62px;
+			vertical-align: middle;
+		}
+
+	}
+}
+
+#finance-counter{
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+	display: inline-block; 
+}
+
+#finance, #skills, #busenv, #culture, #inf, #diginf, #agglom, #market, #lifestyle {
+		    display: inline-block;
+		    clear: left;
+		    width: 300px;
+		    margin: 15px;
+		  }
+		#finance .ui-slider-range { background: #ef2929; }
+		#finance .ui-slider-handle { border-color: #ef2929; }
+		#skills .ui-slider-range { background: #8ae234; }
+		#skills .ui-slider-handle { border-color: #8ae234; }
+		#busenv .ui-slider-range { background: #729fcf; }
+		#busenv .ui-slider-handle { border-color: #729fcf; }
+		#culture .ui-slider-range { background: #FF7F00; }
+		#culture .ui-slider-handle { border-color: #FF7F00; }
+		#inf .ui-slider-range { background: #FFFF00; }
+		#inf .ui-slider-handle { border-color: #FFFF00; }
+		#diginf .ui-slider-range { background: #7F00FF; }
+		#diginf .ui-slider-handle { border-color: #7F00FF; }
+		#agglom .ui-slider-range { background: #7FFF00; }
+		#agglom .ui-slider-handle { border-color: #7FFF00; }
+		#market .ui-slider-range { background: #00FFFF; }
+		#market .ui-slider-handle { border-color: #00FFFF; }
+		#lifestyle .ui-slider-range { background: #FF00FF; }
+		#lifestyle .ui-slider-handle { border-color: #FF00FF; }
