@@ -17,50 +17,100 @@
 .cf:after {
     clear: both;
 }
-		
+
+body{
+	margin-bottom: 0px;
+}
 	
-.sliders{
-	.category-container{
-		width: 90vw;
-		.label{
-			display: inline-block;
-			width: 200px;
-			font-size: 15px;
-			height: 62px;
-			vertical-align: middle;
+main{
+	margin: -10px -10px -20px -10px;
+	background: url('http://images2.layoutsparks.com/1/58243/city-lights-building-water.jpg');
+	background-size: cover;
+	background-repeat: none;
+	color: white;
+	font-size: 15px;
+	.header{
+		padding-top: 20px;
+		height: 20vh;
+		text-align: center;
+		margin-bottom: 5px;
+		.edf-logo{
+			height: 100%;
+			margin: 0 auto;
 		}
 
 	}
+	.sliders{
+		float: left;
+		width: 100vw;
+		text-align: center;
+		background: rgba(50,50,50,0.5);
+		padding: 2vh 0 7vh 0;
+		// margin-bottom: -20px;
+		.about-text{
+			padding: 0 15% 2% 15%;
+		}
+		.category-container{
+			// width: 90vw;
+			height: 50px;
+			.label{
+				display: inline-block;
+				width: 200px;
+				font-size: 15px;
+				height: 62px;
+				vertical-align: middle;
+			}
+
+		}
+		.submit-vote{
+			width: 150px;
+			height: 50px;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid white;
+			background: rgba(150, 50, 100, 0.5);
+			margin: 15px auto; 
+			cursor: pointer; 
+		}
+		.submit-vote:hover{
+			background: rgba(150, 100, 100, 0.5);
+		}
+	}	
 }
 
-#finance-counter{
-	width: 20px;
+
+.counter{
+	width: auto;
+	min-width: 20px;
 	height: 20px;
 	border: 1px solid gray;
-	display: inline-block; 
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 35px;
+	vertical-align: middle;
 }
 
-#finance, #skills, #busenv, #culture, #inf, #diginf, #agglom, #market, #lifestyle {
+		.slider{
 		    display: inline-block;
 		    clear: left;
 		    width: 300px;
 		    margin: 15px;
 		  }
-		#finance .ui-slider-range { background: #ef2929; }
-		#finance .ui-slider-handle { border-color: #ef2929; }
-		#skills .ui-slider-range { background: #8ae234; }
-		#skills .ui-slider-handle { border-color: #8ae234; }
-		#busenv .ui-slider-range { background: #729fcf; }
-		#busenv .ui-slider-handle { border-color: #729fcf; }
-		#culture .ui-slider-range { background: #FF7F00; }
-		#culture .ui-slider-handle { border-color: #FF7F00; }
-		#inf .ui-slider-range { background: #FFFF00; }
-		#inf .ui-slider-handle { border-color: #FFFF00; }
-		#diginf .ui-slider-range { background: #7F00FF; }
-		#diginf .ui-slider-handle { border-color: #7F00FF; }
-		#agglom .ui-slider-range { background: #7FFF00; }
-		#agglom .ui-slider-handle { border-color: #7FFF00; }
-		#market .ui-slider-range { background: #00FFFF; }
-		#market .ui-slider-handle { border-color: #00FFFF; }
-		#lifestyle .ui-slider-range { background: #FF00FF; }
-		#lifestyle .ui-slider-handle { border-color: #FF00FF; }
+		#finance-slider .ui-slider-range { background: #ef2929; }
+		#finance-slider .ui-slider-handle { border-color: #ef2929; }
+		#skills-slider .ui-slider-range { background: #8ae234; }
+		#skills-slider .ui-slider-handle { border-color: #8ae234; }
+		#env-slider .ui-slider-range { background: #729fcf; }
+		#env-slider .ui-slider-handle { border-color: #729fcf; }
+		#culture-slider .ui-slider-range { background: #FF7F00; }
+		#culture-slider .ui-slider-handle { border-color: #FF7F00; }
+		#inf-slider .ui-slider-range { background: #FFFF00; }
+		#inf-slider .ui-slider-handle { border-color: #FFFF00; }
+		#diginf-slider .ui-slider-range { background: #7F00FF; }
+		#diginf-slider .ui-slider-handle { border-color: #7F00FF; }
+		#agglom-slider .ui-slider-range { background: #7FFF00; }
+		#agglom-slider .ui-slider-handle { border-color: #7FFF00; }
+		#market-slider .ui-slider-range { background: #00FFFF; }
+		#market-slider .ui-slider-handle { border-color: #00FFFF; }
+		#lifestyle-slider .ui-slider-range { background: #FF00FF; }
+		#lifestyle-slider .ui-slider-handle { border-color: #FF00FF; }
