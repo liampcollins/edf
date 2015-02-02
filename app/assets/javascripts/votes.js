@@ -26,7 +26,7 @@ function submitVote(){
 	});
   request("POST", "/votes", {vote:data}).success(function(){
   	initiateSlider();
-  	$('.counter').innerHTML("");
+  	$(".success-notice").html("Thank you for submitting your selection")
   });
 };
 
@@ -40,19 +40,9 @@ function initiateSlider(){
 	  slide: refreshValue,
 	  change: refreshValue
 	});
-}
+};
 
 $(document).ready(function(){
-	// $(function() {
-	// 	$(".slider").slider({
-	// 	  orientation: "horizontal",
-	// 	  range: "min",
-	// 	  max: 100,
-	// 	  value: 50,
-	// 	  slide: refreshValue,
-	// 	  change: refreshValue
-	// 	});
-	// });
 	initiateSlider();
 	$('.submit-vote').on('click', submitVote);
 });
